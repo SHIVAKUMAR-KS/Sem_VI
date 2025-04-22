@@ -51,3 +51,11 @@ plt.show()
 print("Accuracy:", metrics.accuracy_score(y_test, y_pred)) 
 print("Precision:", metrics.precision_score(y_test, y_pred)) 
 print("Recall:", metrics.recall_score(y_test, y_pred))
+
+
+# Confusion Matrix:
+#  [[119  11]
+#  [ 26  36]]
+# Accuracy: 0.8072916666666666
+# Precision: 0.7659574468085106
+# Recall: 0.5806451612903226
